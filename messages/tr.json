@@ -1,18 +1,151 @@
 {
   "nav": {
+    "about": "Hakkımızda",
     "treatments": "Tedaviler",
     "results": "Sonuçlar",
     "contact": "İletişim",
-    "book": "Danışmanlık Al"
+    "book": "Danışmanlık al"
   },
   "hero": {
-    "badge": "Bakü'de Premium Klinik",
+    "badge": "Bakü'de premium klinik",
     "title": "Saç Ekimi",
-    "subtitle": "Deneyimli cerrahlar tarafından FUE/DHI ile doğal ve yoğun sonuçlar. Şeffaf fiyatlandırma ve ömür boyu greft garantisi.",
-    "cta": "Fiyat Teklifi Al",
-    "cta2": "Sonuçları Gör",
+    "subtitle": "Deneyimli cerrahlarımız FUE, DHI ve hibrit tekniklerle doğal ve yoğun sonuçlar sunuyor.",
+    "cta": "Fiyat teklifi al",
+    "cta2": "Sonuçları gör",
     "founderCaption": "Kurucu ve Baş Cerrah – Dr. A. Karimov"
   },
-  "videos": { "title": "Klinik Videoları" },
-  "footer": { "rights": "Tüm hakları saklıdır." }
+  "stats": {
+    "ariaLabel": "Klinik başarı göstergeleri",
+    "items": [
+      { "value": "12K+", "label": "Başarılı saç ekimi" },
+      { "value": "98%", "label": "Hasta memnuniyeti" },
+      { "value": "4", "label": "Koordinatörlerimizin konuştuğu dil" },
+      { "value": "24/7", "label": "7/24 özel destek hattı" }
+    ]
+  },
+  "about": {
+    "eyebrow": "Hakkımızda",
+    "title": "Bakü'nün kalbinde butik saç restorasyonu",
+    "subtitle": "Yüzünüze ait görünen saç çizgileri tasarlamak için sanatı tıbbi hassasiyetle buluşturuyoruz.",
+    "imageAlt": "Atria Saç Kliniği cerrahi ekibi",
+    "experience": "15+ yıllık ortak cerrahi deneyim",
+    "care": "Ana dilinizde konuşan koordinatörler ilk görüşmeden son kontrole kadar yanınızda.",
+    "note": "Uluslararası sterilizasyon standartlarına uyan ISO sertifikalı ameliyathaneler.",
+    "content": {
+      "body": [
+        "Atria Saç Kliniği, doğal ve fark edilmeyen saç restorasyonu isteyen Avrupa ve Orta Doğu'dan hastaları ağırlıyor.",
+        "Her tedavi planı, trikoskopik analiz, yoğunluk hedefleri ve donör yönetimi değerlendirildikten sonra Dr. Karimov ve ekibi tarafından hazırlanır."
+      ],
+      "highlights": [
+        "Her operasyonu sertifikalı cerrahlar gerçekleştirir",
+        "Özel dinlenme odaları ve havaalanı transferi dahildir",
+        "Yeni saç çizginizi önceden görmek için dijital modelleme",
+        "Greftlerin ömür boyu yaşama garantisi"
+      ]
+    }
+  },
+  "treatments": {
+    "eyebrow": "Tedaviler",
+    "title": "Kişiye özel ekim teknikleri",
+    "description": "Donör kapasitenize ve yaşam tarzınıza uygun yöntemi seçin. Paketlere kan testleri, PRP seansı ve bakım seti dahildir.",
+    "items": [
+      {
+        "name": "Safir FUE",
+        "summary": "Safir uçlar hassas kanal açılımı sağlar ve dokuyu korur.",
+        "points": [
+          "cm² başına 55 greft'e kadar yoğun yerleşim",
+          "Doğal saç çizgisi tasarımları için ideal",
+          "Minimal iz ve hızlı iyileşme"
+        ]
+      },
+      {
+        "name": "Doğrudan Saç İmplantasyonu (DHI)",
+        "summary": "Implanter kalemi her greftin açı, yön ve derinliğini kontrol etmemizi sağlar.",
+        "points": [
+          "Önceden kanal açmaya gerek yok",
+          "Tepe bölgesi ve rötuşlar için mükemmel",
+          "Kısa iyileşme süresiyle yüksek yoğunluk"
+        ]
+      },
+      {
+        "name": "Hibrit Restorasyon ve PRP",
+        "summary": "Sakal veya vücut greftlerini saç derisi FUE ve PRP desteğiyle birleştiriyoruz.",
+        "points": [
+          "İleri seviye saç kaybında donör yönetimini dengeler",
+          "Hızlı iyileşme için PRP güçlendiricileri",
+          "Kişiye özel medikal terapi ve vitamin programları"
+        ]
+      }
+    ]
+  },
+  "results": {
+    "eyebrow": "Sonuçlar",
+    "title": "Öncesi & sonrası dönüşümler",
+    "description": "Tıbbi fotoğraf ekibimizin belgelerle anlattığı gerçek hasta hikâyelerini inceleyin.",
+    "note": "Her vaka trikoskopi ile değerlendiriliyor ve yalnızca yazılı onayla paylaşılıyor.",
+    "cases": [
+      {
+        "name": "Rahim · 32",
+        "summary": "Norwood IV saç kaybı sonrası saç çizgisi ve şakaklar yeniden oluşturuldu.",
+        "metrics": ["3.200 greft FUE", "12 aylık takip", "Yoğunluk 52 greft/cm²"]
+      },
+      {
+        "name": "Selim · 41",
+        "summary": "PRP destekli kombine ekimle tepe bölgesi tamamen kapatıldı.",
+        "metrics": ["2.700 greft DHI", "2 PRP güçlendiricisi", "5 günde işe dönüş"]
+      },
+      {
+        "name": "Marco · 28",
+        "summary": "Hibrit protokol ile diffüz incelme kontrol altına alındı.",
+        "metrics": ["1.800 greft hibrit", "Medikal terapi planı", "7. ayda gözle görülür sonuç"]
+      }
+    ]
+  },
+  "videos": {
+    "title": "Klinik videoları",
+    "items": [
+      {
+        "title": "Atria turu: Steril ameliyathane",
+        "src": "https://www.youtube.com/embed/5MgBikgcWnY"
+      },
+      {
+        "title": "Safir FUE adım adım",
+        "src": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+      },
+      {
+        "title": "DHI implant açıları anlatımı",
+        "src": "https://www.youtube.com/embed/9No-FiEInLA"
+      },
+      {
+        "title": "Hasta yorumu: Birleşik Krallık'tan David",
+        "src": "https://www.youtube.com/embed/cKZDdG9FTKY"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Danışmanlığınızı planlayın",
+    "description": "Fotoğraflarınızı paylaşın, Dr. Karimov aynı gün size özel greft planı hazırlasın.",
+    "phoneLabel": "Telefon",
+    "phone": "+994 50 555 44 33",
+    "whatsappLabel": "WhatsApp",
+    "whatsapp": "+994 55 777 88 66",
+    "whatsappDisplay": "+994 55 777 88 66",
+    "addressLabel": "Klinik adresi",
+    "address": "Neftçiler Cd. 45, Bakü, Azerbaycan",
+    "form": {
+      "title": "Bize mesaj gönderin",
+      "fields": {
+        "name": "Ad Soyad",
+        "email": "E-posta adresi",
+        "country": "Ülke / Şehir",
+        "message": "Saç hedeflerinizi anlatın"
+      },
+      "submit": "Geri arama iste",
+      "privacy": "Bu formu göndererek telefon, WhatsApp veya e-posta yoluyla iletişime geçilmesini kabul ediyorsunuz."
+    }
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  }
 }

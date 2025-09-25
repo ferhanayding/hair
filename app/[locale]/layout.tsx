@@ -1,11 +1,6 @@
 // app/[locale]/layout.tsx
-import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import {
-  getMessages,
-  getTranslations,
-  setRequestLocale,
-} from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import "../globals.css";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
@@ -44,13 +39,12 @@ export default async function RootLayout({
   }
 
   setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
     <html lang={locale}>
       <body className="min-h-dvh bg-white text-neutral-900 antialiased">
-        <NextIntlClientProvider
-         
-        >
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <Header locale={locale} />
           <main>{children}</main>
           <Footer />

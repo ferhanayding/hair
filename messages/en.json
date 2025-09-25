@@ -1,18 +1,151 @@
 {
   "nav": {
+    "about": "About",
     "treatments": "Treatments",
     "results": "Results",
     "contact": "Contact",
-    "book": "Book Consultation"
+    "book": "Book consultation"
   },
   "hero": {
-    "badge": "Premium Clinic in Baku",
+    "badge": "Premium clinic in Baku",
     "title": "Hair Transplant at",
-    "subtitle": "Natural, dense results with FUE/DHI by experienced surgeons. Transparent pricing & lifetime graft guarantee.",
+    "subtitle": "Natural, dense results delivered by experienced surgeons with FUE, DHI and hybrid techniques.",
     "cta": "Get a quote",
     "cta2": "See results",
     "founderCaption": "Founder & Lead Surgeon – Dr. A. Karimov"
   },
-  "videos": { "title": "Clinic Videos" },
-  "footer": { "rights": "All rights reserved." }
+  "stats": {
+    "ariaLabel": "Clinic highlights",
+    "items": [
+      { "value": "12K+", "label": "Successful transplants" },
+      { "value": "98%", "label": "Patient satisfaction" },
+      { "value": "4", "label": "Languages spoken by coordinators" },
+      { "value": "24/7", "label": "Dedicated aftercare line" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Boutique hair restoration in the heart of Baku",
+    "subtitle": "We blend artistry with medical precision to design hairlines that belong to your face.",
+    "imageAlt": "Atria Hair Clinic surgical team",
+    "experience": "15+ years of combined surgical experience",
+    "care": "Dedicated native-language coordinators guide you from the first video call to the final follow-up.",
+    "note": "ISO-certified operating theatres that follow international sterilisation standards.",
+    "content": {
+      "body": [
+        "Atria Hair Clinic welcomes guests from across Europe and the Middle East who look for natural, undetectable hair restoration.",
+        "Every treatment plan is prepared by Dr. Karimov and his medical board after trichoscopic analysis, density goals and donor management review."
+      ],
+      "highlights": [
+        "Board-certified surgeons perform every procedure",
+        "Private recovery suites and airport transfers included",
+        "Digital imaging to preview your new hairline",
+        "Lifetime graft survival guarantee"
+      ]
+    }
+  },
+  "treatments": {
+    "eyebrow": "Treatments",
+    "title": "Personalised transplant techniques",
+    "description": "Choose the method that fits your donor capacity and lifestyle. Each package includes blood tests, PRP session and aftercare kit.",
+    "items": [
+      {
+        "name": "Sapphire FUE",
+        "summary": "Ultra-fine sapphire blades for precise channel opening and reduced trauma.",
+        "points": [
+          "Dense packing up to 55 grafts/cm²",
+          "Perfect for natural hairline reconstruction",
+          "Minimal scarring and quick recovery"
+        ]
+      },
+      {
+        "name": "Direct Hair Implantation (DHI)",
+        "summary": "Implanter pen allows full control over angle, direction and depth for every graft.",
+        "points": [
+          "No need to pre-open channels",
+          "Ideal for crown filling and touch-ups",
+          "High density with limited downtime"
+        ]
+      },
+      {
+        "name": "Hybrid Restoration & PRP",
+        "summary": "Combine beard or body grafts with scalp FUE and platelet-rich plasma support.",
+        "points": [
+          "Balances donor management for advanced hair loss",
+          "PRP boosters for accelerated healing",
+          "Personalised medical therapy and vitamin plans"
+        ]
+      }
+    ]
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "Before & after transformations",
+    "description": "Explore real patient journeys documented by our medical photography team.",
+    "note": "Every case is evaluated with trichoscopy and published only with written consent.",
+    "cases": [
+      {
+        "name": "Rahim · 32",
+        "summary": "Rebuilt hairline and temples after Norwood IV pattern hair loss.",
+        "metrics": ["3,200 grafts FUE", "12 months follow-up", "Density 52 grafts/cm²"]
+      },
+      {
+        "name": "Selim · 41",
+        "summary": "Crown coverage using combination grafting supported with PRP therapy.",
+        "metrics": ["2,700 grafts DHI", "2 PRP boosters", "Back to work in 5 days"]
+      },
+      {
+        "name": "Marco · 28",
+        "summary": "Diffuse thinning stabilised with our hybrid restoration protocol.",
+        "metrics": ["1,800 grafts hybrid", "Medical therapy plan", "Visible result by month 7"]
+      }
+    ]
+  },
+  "videos": {
+    "title": "Clinic videos",
+    "items": [
+      {
+        "title": "Inside Atria: Sterile OR tour",
+        "src": "https://www.youtube.com/embed/5MgBikgcWnY"
+      },
+      {
+        "title": "Sapphire FUE step-by-step",
+        "src": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+      },
+      {
+        "title": "DHI implantation angles explained",
+        "src": "https://www.youtube.com/embed/9No-FiEInLA"
+      },
+      {
+        "title": "Patient testimonial: David from the UK",
+        "src": "https://www.youtube.com/embed/cKZDdG9FTKY"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Plan your consultation",
+    "description": "Share your photos for a same-day assessment from Dr. Karimov and receive a tailored graft plan.",
+    "phoneLabel": "Phone",
+    "phone": "+994 50 555 44 33",
+    "whatsappLabel": "WhatsApp",
+    "whatsapp": "+994 55 777 88 66",
+    "whatsappDisplay": "+994 55 777 88 66",
+    "addressLabel": "Clinic address",
+    "address": "Neftchilar Ave. 45, Baku, Azerbaijan",
+    "form": {
+      "title": "Send us a message",
+      "fields": {
+        "name": "Full name",
+        "email": "Email address",
+        "country": "Country / City",
+        "message": "Tell us about your hair goals"
+      },
+      "submit": "Request a call back",
+      "privacy": "By submitting this form you agree to be contacted via phone, WhatsApp or email."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
 }

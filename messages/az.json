@@ -1,5 +1,6 @@
 {
   "nav": {
+    "about": "Haqqımızda",
     "treatments": "Müalicələr",
     "results": "Nəticələr",
     "contact": "Əlaqə",
@@ -7,12 +8,144 @@
   },
   "hero": {
     "badge": "Bakıda premium klinika",
-    "title": "Saç əkimi —",
-    "subtitle": "Təcrübəli cərrahlar tərəfindən FUE/DHI ilə təbii və sıx nəticələr. Şəffaf qiymət və ömürlük qraft zəmanəti.",
-    "cta": "Qiymət al",
-    "cta2": "Nəticələrə bax",
+    "title": "Saç əkimi",
+    "subtitle": "Təcrübəli cərrahlarımız FUE, DHI və hibrid texnikalarla təbii və sıx nəticələr təqdim edir.",
+    "cta": "Qiymət təklifi al",
+    "cta2": "Nəticələri gör",
     "founderCaption": "Təsisçi və Baş Cərrah – Dr. A. Kərimov"
   },
-  "videos": { "title": "Klinika videoları" },
-  "footer": { "rights": "Bütün hüquqlar qorunur." }
+  "stats": {
+    "ariaLabel": "Klinikanın əsas göstəriciləri",
+    "items": [
+      { "value": "12K+", "label": "Uğurlu transplantasiyalar" },
+      { "value": "98%", "label": "Pasiyent məmnuniyyəti" },
+      { "value": "4", "label": "Koordinatorlarımızın danışdığı dillər" },
+      { "value": "24/7", "label": "Gecə-gündüz xüsusi dəstək xətti" }
+    ]
+  },
+  "about": {
+    "eyebrow": "Haqqımızda",
+    "title": "Bakının mərkəzində butik saç bərpası",
+    "subtitle": "Üzünüzə aid olan saç xəttini qurmaq üçün incəsənət və tibbi dəqiqliyi birləşdiririk.",
+    "imageAlt": "Atria Saç Klinikası cərrahi komandası",
+    "experience": "15+ illik birgə cərrahi təcrübə",
+    "care": "Ana dilinizdə danışan koordinatorlar ilk video zəngdən son nəzarətə qədər yanınızdadır.",
+    "note": "Beynəlxalq sterilizasiya standartlarına uyğun ISO sertifikatlı əməliyyat otaqları.",
+    "content": {
+      "body": [
+        "Atria Saç Klinikası Avropa və Yaxın Şərqdən təbii, sezilməyən saç bərpası axtaran qonaqları qəbul edir.",
+        "Hər müalicə planı Dr. Kərimov və tibbi heyəti tərəfindən trixoskopiya, sıxlıq hədəfləri və donor ehtiyatı təhlilindən sonra hazırlanır."
+      ],
+      "highlights": [
+        "Hər proseduru sertifikatlı cərrahlar icra edir",
+        "Şəxsi bərpa otaqları və hava limanı transferi daxildir",
+        "Yeni saç xəttinizi öncədən görmək üçün rəqəmsal modelləşdirmə",
+        "Follikulların ömürlük sağ qalma zəmanəti"
+      ]
+    }
+  },
+  "treatments": {
+    "eyebrow": "Müalicələr",
+    "title": "Fərdiləşdirilmiş transplantasiya texnikaları",
+    "description": "Donor ehtiyatınıza və həyat tərzinizə uyğun metodu seçin. Paketlərə qan analizləri, PRP seansı və baxım dəsti daxildir.",
+    "items": [
+      {
+        "name": "Safir FUE",
+        "summary": "Safir bıçaqlar dəqiq kanallar açır və travmanı minimuma endirir.",
+        "points": [
+          "Hər kv. sm üçün 55 follikuladək sıx yerləşdirmə",
+          "Təbii saç xəttinin bərpası üçün ideal",
+          "Minimal çapıq və sürətli sağalma"
+        ]
+      },
+      {
+        "name": "Birbaşa Saç İmplantasiyası (DHI)",
+        "summary": "Implanter qələm hər follikul üçün bucaq, istiqamət və dərinliyə tam nəzarət verir.",
+        "points": [
+          "Kanallar əvvəlcədən açılmadan tətbiq olunur",
+          "Təpə sahəsinin doldurulması və düzəlişlər üçün uyğundur",
+          "Az fasilə ilə yüksək sıxlıq"
+        ]
+      },
+      {
+        "name": "Hibrid Bərpa və PRP",
+        "summary": "Skalp FUE-ni saqqal və ya bədən follikulları ilə, trombositlə zəngin plazma dəstəyi ilə birləşdiririk.",
+        "points": [
+          "İrəliləmiş saç tökülməsində donor idarəsini balanslaşdırır",
+          "Sürətli sağalma üçün PRP gücləndiriciləri",
+          "Fərdi tibbi terapiya və vitamin proqramları"
+        ]
+      }
+    ]
+  },
+  "results": {
+    "eyebrow": "Nəticələr",
+    "title": "Əvvəl və sonra transformasiyalar",
+    "description": "Tibbi fotoqrafiya komandamızın sənədləşdirdiyi real pasiyent hekayələrini kəşf edin.",
+    "note": "Hər iş trixoskopiya ilə qiymətləndirilir və yalnız yazılı razılıqla paylaşılır.",
+    "cases": [
+      {
+        "name": "Rahim · 32",
+        "summary": "Norwood IV tip saç tökülməsindən sonra saç xətti və gicgahlar yenidən quruldu.",
+        "metrics": ["3 200 follikul FUE", "12 aylıq nəzarət", "Sıxlıq 52 follikul/cm²"]
+      },
+      {
+        "name": "Selim · 41",
+        "summary": "PRP dəstəyi ilə kombinə transplantasiya nəticəsində təpə tam örtüldü.",
+        "metrics": ["2 700 follikul DHI", "2 PRP gücləndiricisi", "5 günə işə dönüş"]
+      },
+      {
+        "name": "Marco · 28",
+        "summary": "Hibrid protokol sayəsində diffuz seyrəklik stabilləşdirildi.",
+        "metrics": ["1 800 follikul hibrid", "Tibbi terapiya planı", "7-ci ayda görünən nəticə"]
+      }
+    ]
+  },
+  "videos": {
+    "title": "Klinika videoları",
+    "items": [
+      {
+        "title": "Atria daxilində: Steril əməliyyat otağı turu",
+        "src": "https://www.youtube.com/embed/5MgBikgcWnY"
+      },
+      {
+        "title": "Safir FUE addım-addım",
+        "src": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+      },
+      {
+        "title": "DHI implantasiya bucaqları izahı",
+        "src": "https://www.youtube.com/embed/9No-FiEInLA"
+      },
+      {
+        "title": "Pasiyent rəyi: Birləşmiş Krallıqdan David",
+        "src": "https://www.youtube.com/embed/cKZDdG9FTKY"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Əlaqə",
+    "title": "Məsləhətinizi planlaşdırın",
+    "description": "Şəkillərinizi göndərin, Dr. Kərimov eyni gün fərdi follikul planı hazırlasın.",
+    "phoneLabel": "Telefon",
+    "phone": "+994 50 555 44 33",
+    "whatsappLabel": "WhatsApp",
+    "whatsapp": "+994 55 777 88 66",
+    "whatsappDisplay": "+994 55 777 88 66",
+    "addressLabel": "Klinikanın ünvanı",
+    "address": "Neftçilər pr. 45, Bakı, Azərbaycan",
+    "form": {
+      "title": "Bizə mesaj göndərin",
+      "fields": {
+        "name": "Ad və soyad",
+        "email": "E-poçt ünvanı",
+        "country": "Ölkə / Şəhər",
+        "message": "Saç hədəflərinizdən danışın"
+      },
+      "submit": "Geri zəng istəyin",
+      "privacy": "Formanı göndərməklə telefon, WhatsApp və ya e-poçt vasitəsilə əlaqə saxlanmasına razılıq verirsiniz."
+    }
+  },
+  "footer": {
+    "rights": "Bütün hüquqlar qorunur."
+  }
 }

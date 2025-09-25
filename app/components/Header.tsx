@@ -13,6 +13,9 @@ export default function Header({ locale }: { locale: "az" | "ru" | "en" |"tr" })
           <span className="font-bold">Atria</span>
         </Link>
         <nav className="hidden gap-6 md:flex">
+          <Link href="#about" className="hover:opacity-80">
+            {t("about")}
+          </Link>
           <Link href="#treatments" className="hover:opacity-80">
             {t("treatments")}
           </Link>
@@ -24,7 +27,7 @@ export default function Header({ locale }: { locale: "az" | "ru" | "en" |"tr" })
           </Link>
         </nav>
         <div className="flex items-center gap-3">
-          <LangSwitcher current={locale}/>
+          <LangSwitcher current={locale} />
           <a href="#contact" className="btn btn-primary text-sm">{t("book")}</a>
         </div>
       </div>
