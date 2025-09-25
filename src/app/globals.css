@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --brand: 38 92% 52%;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-semibold shadow-sm transition active:scale-[.98];
+}
+.btn-primary {
+  @apply bg-[hsl(var(--brand))] text-white hover:opacity-95;
+}
+.btn-ghost {
+  @apply bg-transparent text-neutral-900 hover:bg-neutral-100;
+}

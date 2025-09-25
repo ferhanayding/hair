@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "treatments": "Treatments",
+    "results": "Results",
+    "contact": "Contact",
+    "book": "Book Consultation"
+  },
+  "hero": {
+    "badge": "Premium Clinic in Baku",
+    "title": "Hair Transplant at",
+    "subtitle": "Natural, dense results with FUE/DHI by experienced surgeons. Transparent pricing & lifetime graft guarantee.",
+    "cta": "Get a quote",
+    "cta2": "See results",
+    "founderCaption": "Founder & Lead Surgeon – Dr. A. Karimov"
+  },
+  "videos": { "title": "Clinic Videos" },
+  "footer": { "rights": "All rights reserved." }
+}

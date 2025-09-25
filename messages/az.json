@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "treatments": "Müalicələr",
+    "results": "Nəticələr",
+    "contact": "Əlaqə",
+    "book": "Məsləhət al"
+  },
+  "hero": {
+    "badge": "Bakıda premium klinika",
+    "title": "Saç əkimi —",
+    "subtitle": "Təcrübəli cərrahlar tərəfindən FUE/DHI ilə təbii və sıx nəticələr. Şəffaf qiymət və ömürlük qraft zəmanəti.",
+    "cta": "Qiymət al",
+    "cta2": "Nəticələrə bax",
+    "founderCaption": "Təsisçi və Baş Cərrah – Dr. A. Kərimov"
+  },
+  "videos": { "title": "Klinika videoları" },
+  "footer": { "rights": "Bütün hüquqlar qorunur." }
+}
