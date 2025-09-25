@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "treatments": "Tedaviler",
+    "results": "Sonuçlar",
+    "contact": "İletişim",
+    "book": "Danışmanlık Al"
+  },
+  "hero": {
+    "badge": "Bakü'de Premium Klinik",
+    "title": "Saç Ekimi",
+    "subtitle": "Deneyimli cerrahlar tarafından FUE/DHI ile doğal ve yoğun sonuçlar. Şeffaf fiyatlandırma ve ömür boyu greft garantisi.",
+    "cta": "Fiyat Teklifi Al",
+    "cta2": "Sonuçları Gör",
+    "founderCaption": "Kurucu ve Baş Cerrah – Dr. A. Karimov"
+  },
+  "videos": { "title": "Klinik Videoları" },
+  "footer": { "rights": "Tüm hakları saklıdır." }
+}
