@@ -1,15 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --brand: 38 92% 52%;
+  /* brand palette */
+  --color-forest: 176 29% 19%; /* rgb(35, 64, 62) */
+  --color-forest-dark: 176 31% 14%;
+  --color-forest-muted: 168 25% 92%;
+  --color-forest-soft: 166 33% 96%;
+  --color-contrast: 0 0% 100%;
+  --color-muted: 168 11% 38%;
+
+  --brand: 26 87% 67%;
+  --brand-contrast: 27 91% 16%;
 }
 
 .btn {
   @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-semibold shadow-sm transition active:scale-[.98];
 }
 .btn-primary {
-  @apply bg-[hsl(var(--brand))] text-white hover:opacity-95;
+  @apply bg-[hsl(var(--brand))] text-[hsl(var(--brand-contrast))] hover:bg-[hsl(var(--brand))]/90;
 }
 .btn-ghost {
-  @apply bg-transparent text-neutral-900 hover:bg-neutral-100;
+  @apply bg-transparent text-[hsl(var(--color-forest))] hover:bg-[hsl(var(--color-forest-muted))];
 }

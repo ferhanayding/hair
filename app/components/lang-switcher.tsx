@@ -163,8 +163,8 @@ export default function LocaleSwitcher({ current }: { current?: Loc }) {
             }
           }}
           className={[
-            "cursor-pointer inline-flex items-center justify-center rounded-2xl px-2.5 py-1.5",
-            "bg-transparent hover:bg-white/10 transition",
+            "cursor-pointer inline-flex items-center justify-center rounded-2xl px-2.5 py-1.5 text-white",
+            "bg-white/5 hover:bg-white/10 transition",
             open
               ? "ring-1 ring-white/30 shadow-[0_0_24px_-10px_rgba(255,255,255,0.5)]"
               : "",
@@ -196,9 +196,8 @@ export default function LocaleSwitcher({ current }: { current?: Loc }) {
           onKeyDown={onMenuKeyDown}
           className={[
             "absolute right-0 mt-2 w-20 origin-top-right",
-            "rounded-2xl border border-white/10 backdrop-blur",
-            "bg-mainColor shadow-lg ring-1 ring-black/5",
-            "transition will-change-transform",
+            "rounded-2xl border border-white/10 bg-[hsl(var(--color-forest))] text-white shadow-lg",
+            "ring-1 ring-black/5 backdrop-blur transition will-change-transform",
             open
               ? "scale-100 opacity-100"
               : "pointer-events-none scale-95 opacity-0",
@@ -215,8 +214,8 @@ export default function LocaleSwitcher({ current }: { current?: Loc }) {
                   onClick={() => onSelect(code)}
                   className={[
                     "w-full flex items-center justify-center gap-1 rounded-xl p-2 cursor-pointer",
-                    "hover:bg-white/15 focus:bg-white/15 focus:outline-none",
-                    code === active ? "ring-1 ring-white/30" : "",
+                    "hover:bg-white/10 focus:bg-white/10 focus:outline-none",
+                    code === active ? "ring-1 ring-white/40" : "",
                   ].join(" ")}
                 >
                   <Flag />

@@ -23,7 +23,7 @@ export default function Page({
       <AboutSection />
       <TreatmentsSection />
       <ResultsSection />
-      <section className="bg-white">
+      <section className="bg-[hsl(var(--color-forest-muted))]">
         <div className="mx-auto max-w-6xl px-4 py-16">
           <VideoGrid />
         </div>

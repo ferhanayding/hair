@@ -13,22 +13,22 @@ export default function AboutSection() {
   const highlights = content?.highlights ?? [];
 
   return (
-    <section id="about" className="scroll-mt-24 bg-neutral-50">
+    <section id="about" className="scroll-mt-24 bg-[hsl(var(--color-forest-soft))]">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-[1.1fr_0.9fr] md:items-center">
         <div className="space-y-6">
-          <span className="inline-block rounded-full bg-white px-3 py-1 text-xs font-semibold text-neutral-600">
+          <span className="inline-block rounded-full bg-white px-3 py-1 text-xs font-semibold text-[hsl(var(--color-muted))]">
             {t("eyebrow")}
           </span>
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             {t("title")}
           </h2>
-          <p className="text-lg text-neutral-600">{t("subtitle")}</p>
-          <div className="space-y-4 text-neutral-600">
+          <p className="text-lg text-[hsl(var(--color-muted))]">{t("subtitle")}</p>
+          <div className="space-y-4 text-[hsl(var(--color-muted))]">
             {body.map((paragraph, idx) => (
               <p key={idx}>{paragraph}</p>
             ))}
           </div>
-          <ul className="grid gap-2 text-sm text-neutral-700 md:grid-cols-2">
+          <ul className="grid gap-2 text-sm text-[hsl(var(--color-forest))] md:grid-cols-2">
             {highlights.map((item, idx) => (
               <li key={idx} className="flex items-start gap-2">
                 <span aria-hidden className="mt-1 h-2 w-2 rounded-full bg-[hsl(var(--brand))]" />

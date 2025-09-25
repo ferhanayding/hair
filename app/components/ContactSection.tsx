@@ -21,17 +21,17 @@ export default function ContactSection() {
   const whatsappHref = whatsappNumber.replace(/\D+/g, "");
 
   return (
-    <section id="contact" className="scroll-mt-24 bg-neutral-50">
+    <section id="contact" className="scroll-mt-24 bg-[hsl(var(--color-forest-soft))]">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-[0.9fr_1.1fr] md:items-start">
         <div className="space-y-6">
-          <span className="inline-block rounded-full bg-white px-3 py-1 text-xs font-semibold text-neutral-600">
+          <span className="inline-block rounded-full bg-white px-3 py-1 text-xs font-semibold text-[hsl(var(--color-muted))]">
             {t("eyebrow")}
           </span>
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
             {t("title")}
           </h2>
-          <p className="text-lg text-neutral-600">{t("description")}</p>
-          <div className="space-y-4 rounded-3xl border border-neutral-200 bg-white p-6 text-neutral-700">
+          <p className="text-lg text-[hsl(var(--color-muted))]">{t("description")}</p>
+          <div className="space-y-4 rounded-3xl border border-white/40 bg-white/90 p-6 text-[hsl(var(--color-forest))] shadow-[0_18px_50px_-32px_rgba(35,64,62,0.65)]">
             <div>
               <p className="text-xs uppercase tracking-widest text-neutral-400">
                 {t("phoneLabel")}
@@ -60,46 +60,46 @@ export default function ContactSection() {
           </div>
         </div>
         <form
-          className="space-y-5 rounded-3xl border border-neutral-200 bg-white p-6 shadow-[0_24px_60px_-40px_rgba(15,23,42,0.35)]"
+          className="space-y-5 rounded-3xl border border-white/40 bg-white/95 p-6 shadow-[0_32px_90px_-45px_rgba(35,64,62,0.5)]"
           aria-label={form?.title}
         >
-          <h3 className="text-xl font-semibold text-neutral-900">{form?.title}</h3>
+          <h3 className="text-xl font-semibold text-[hsl(var(--color-forest))]">{form?.title}</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <label className="flex flex-col text-sm text-neutral-600">
+            <label className="flex flex-col text-sm text-[hsl(var(--color-muted))]">
               {form?.fields.name}
               <input
                 type="text"
                 name="name"
-                className="mt-2 rounded-2xl border border-neutral-200 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
+                className="mt-2 rounded-2xl border border-white/60 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
                 placeholder={form?.fields.name}
                 required
               />
             </label>
-            <label className="flex flex-col text-sm text-neutral-600">
+            <label className="flex flex-col text-sm text-[hsl(var(--color-muted))]">
               {form?.fields.email}
               <input
                 type="email"
                 name="email"
-                className="mt-2 rounded-2xl border border-neutral-200 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
+                className="mt-2 rounded-2xl border border-white/60 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
                 placeholder={form?.fields.email}
                 required
               />
             </label>
-            <label className="flex flex-col text-sm text-neutral-600 md:col-span-2">
+            <label className="flex flex-col text-sm text-[hsl(var(--color-muted))] md:col-span-2">
               {form?.fields.country}
               <input
                 type="text"
                 name="country"
-                className="mt-2 rounded-2xl border border-neutral-200 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
+                className="mt-2 rounded-2xl border border-white/60 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
                 placeholder={form?.fields.country}
               />
             </label>
-            <label className="flex flex-col text-sm text-neutral-600 md:col-span-2">
+            <label className="flex flex-col text-sm text-[hsl(var(--color-muted))] md:col-span-2">
               {form?.fields.message}
               <textarea
                 name="message"
                 rows={4}
-                className="mt-2 rounded-2xl border border-neutral-200 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
+                className="mt-2 rounded-2xl border border-white/60 px-4 py-3 text-neutral-900 focus:border-[hsl(var(--brand))] focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand))]/40"
                 placeholder={form?.fields.message}
                 required
               />
